@@ -21,3 +21,18 @@
 
 - `npm start`
 - Visit [localhost:1234](http://localhost:1234)
+
+
+## Options
+
+### Adding Fontawesome
+
+- `npm i @fortawesome/fontawesome-free`
+- Include Fontawesome:
+    ```
+    $fa-font-path: "./../node_modules/@fortawesome/fontawesome-free/webfonts";
+    @import "./../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+    @import "./../node_modules/@fortawesome/fontawesome-free/scss/fa-brands";
+    @import "./../node_modules/@fortawesome/fontawesome-free/scss/fa-regular";
+    @import "./../node_modules/@fortawesome/fontawesome-free/scss/fa-solid";
+    ```
