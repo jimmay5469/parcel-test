@@ -21,3 +21,19 @@
 
 - `npm start`
 - Visit [localhost:1234](http://localhost:1234)
+
+
+## Options
+
+### Adding Bootstrap
+
+- `npm i bootstrap`
+- Include everything:
+    ```
+    @import './../node_modules/bootstrap/scss/bootstrap';
+    ```
+- Include specific modules:
+    ```
+    @import './../node_modules/bootstrap/scss/functions';
+    @import './../node_modules/bootstrap/scss/variables';
+    ```
