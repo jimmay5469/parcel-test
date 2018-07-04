@@ -20,3 +20,19 @@
 
 - `npm start`
 - Visit [localhost:1234](http://localhost:1234)
+
+
+## Options
+
+### Adding Autoprefixer
+
+- `npm i --save-dev autoprefixer`
+- Create `.postcssrc` file:
+    ```
+    {
+      "plugins": {
+        "autoprefixer": {}
+      }
+    }
+    ```
+- `echo last 4 versions >> .browserslistrc`
