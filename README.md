@@ -21,3 +21,10 @@
 
 - `npm start`
 - Visit [localhost:1234](http://localhost:1234)
+
+## Options
+
+### Adding React
+
+- `npm i --save-dev react`
+- `npm i --save-dev react-dom`

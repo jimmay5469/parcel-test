@@ -12,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.0",
-    "parcel": "^1.9.4"
+    "parcel": "^1.9.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   }
 }
