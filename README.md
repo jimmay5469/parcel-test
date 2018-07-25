@@ -21,3 +21,9 @@
 
 - `npm start`
 - Visit [localhost:1234](http://localhost:1234)
+
+## Options
+
+### Adding a second page
+
+- As long as you have an anchor tag to the new page it will just work!
